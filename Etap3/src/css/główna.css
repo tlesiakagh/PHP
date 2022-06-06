@@ -1,0 +1,66 @@
+#repertuar {
+    margin-top: 10px;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid black;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.element * {
+    background-color: transparent;
+}
+
+.element div p, h1 {
+    color: black;
+    font-size: large;
+}
+
+.element h1 {
+    text-transform: uppercase;
+}
+
+.opis {
+    margin-left: 6%;
+}
+
+.dodatki {
+    margin: 10px auto;
+    width: 100%;
+    height: 30%;
+}
+
+.dodatki>div {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    padding: 1%;
+}
+
+.dodatki>div>img {
+    flex: 20%;
+}
+
+#eventImg {
+    height: 170px;
+}
+
+.dodatki>div div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.dodatki>div div:last-child {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.dodatki>div div:last-child a {
+    align-self: flex-end;
+    font-size: 24px;
+}

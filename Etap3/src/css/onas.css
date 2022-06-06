@@ -1,0 +1,50 @@
+#info {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin-left: 10%;
+    padding: 3%;
+}
+
+#info img {
+    width: 40%;
+    height: 40%;
+    border: 1px solid white;
+}
+
+#info h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#info p, li {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.sala {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    align-items: center;
+}
+
+.sala>img {
+    flex: 25%;
+}
+
+.opis {
+    flex: 75%;
+    padding-left: 50px;
+}
+
+.opis ul li {
+    text-align: left;
+}
+
+.opis ul li:first-child {
+    margin-top: 5px;
+}

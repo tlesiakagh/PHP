@@ -1,0 +1,32 @@
+.wyd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    padding: 1%;
+    height: 20%;
+}
+
+.wyd img {
+    width: 250px;
+    height: 200px;
+}
+
+.content {
+    margin-left: 1%;
+}
+
+.content p:first-of-type{
+    margin-top: 5px;
+}
+
+.content h1 {
+    font-size: 32px;
+}
+
+.content:nth-child(2) {
+    margin-top: 2%;
+}
